@@ -38,7 +38,7 @@ st.markdown(
 # Home Page Title & Image
 # -------------------------
 st.markdown('<div style="text-align:center; font-size:32px; font-weight:700">✈️ Flying Happy Dashboard</div>', unsafe_allow_html=True)
-st.image("https://www.elliott.org/wp-content/uploads/No-Room.png", use_container_width=True)
+st.image("https://www.elliott.org/wp-content/uploads/No-Room.png")
 st.markdown('<div style="text-align:center; font-size:18px;">Select a section to explore</div>', unsafe_allow_html=True)
 st.markdown("---")
 st.markdown(
