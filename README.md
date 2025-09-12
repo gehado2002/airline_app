@@ -53,5 +53,3 @@ An **interactive Streamlit dashboard** for analyzing airline passenger satisfact
 
 ```bash
 pip install -r requirements.txt
-streamlit run airline_streamlit_code.py
-
