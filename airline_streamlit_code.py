@@ -69,10 +69,7 @@ def pick_col(df, candidates):
 # Load dataset
 # -------------------------
 st.sidebar.header("Load data & Filters")
-csv_path = st.sidebar.text_input(
-    "CSV path (local)",
-    value=r"airline_passenger_satisfaction.csv"
-)
+csv_path = "airline_passenger_satisfaction.csv"
 
 if not csv_path:
     st.sidebar.error("Please provide CSV path")
