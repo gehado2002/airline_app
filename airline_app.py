@@ -71,7 +71,7 @@ def pick_col(df, candidates):
 st.sidebar.header("Load data & Filters")
 csv_path = st.sidebar.text_input(
     "CSV path (local)",
-    value=r"C:\Users\lenovo\Downloads\airline_passenger_satisfaction.csv"
+    value=r"airline_passenger_satisfaction.csv"
 )
 
 if not csv_path:
